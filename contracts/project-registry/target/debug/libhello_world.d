@@ -1,0 +1,1 @@
+/home/junia/code/Stellar-Give-Kenya-Project/skillreceipt/contracts/project-registry/target/debug/libhello_world.rlib: /home/junia/code/Stellar-Give-Kenya-Project/skillreceipt/contracts/project-registry/contracts/hello-world/src/lib.rs

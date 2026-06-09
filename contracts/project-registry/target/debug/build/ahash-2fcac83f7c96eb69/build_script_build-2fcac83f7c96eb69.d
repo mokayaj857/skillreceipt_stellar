@@ -1,0 +1,5 @@
+/home/junia/code/Stellar-Give-Kenya-Project/skillreceipt/contracts/project-registry/target/debug/build/ahash-2fcac83f7c96eb69/build_script_build-2fcac83f7c96eb69.d: /home/junia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.8.12/build.rs
+
+/home/junia/code/Stellar-Give-Kenya-Project/skillreceipt/contracts/project-registry/target/debug/build/ahash-2fcac83f7c96eb69/build_script_build-2fcac83f7c96eb69: /home/junia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.8.12/build.rs
+
+/home/junia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.8.12/build.rs:
