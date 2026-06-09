@@ -1,5 +1,5 @@
 import { useWallet } from "../../context/WalletContext";
-import { useBalance } from "../../../hooks/useBalance";
+import { useBalance } from "../../../hooks/usebalance";
 
 export function BalancePanel() {
   const { address } = useWallet();

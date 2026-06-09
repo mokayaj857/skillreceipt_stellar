@@ -207,7 +207,8 @@ export async function signAndSubmitTransaction(
         if (tr) {
           const invokeHostFunctionResult = tr.invokeHostFunctionResult();
           if (invokeHostFunctionResult && invokeHostFunctionResult.switch().value === 0) {
-            return scValToNative(invokeHostFunctionResult.success());
+            // success() can be a raw buffer depending on XDR decoding; cast to ScVal for TypeScript
+            return scValToNative(invokeHostFunctionResult.success() as unknown as xdr.ScVal);
           }
         }
       }
