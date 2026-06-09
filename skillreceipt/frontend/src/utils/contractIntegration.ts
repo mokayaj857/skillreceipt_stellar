@@ -214,4 +214,6 @@ export async function signAndSubmitTransaction(
     }
     return true;
   } else {
-    thr
+    throw new Error(`Transaction failed: ${JSON.stringify(result)}`);
+  }
+}
